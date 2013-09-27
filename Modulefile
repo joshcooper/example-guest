@@ -1,0 +1,10 @@
+name    'joshcooper-guest'
+version '0.1.0'
+source 'git://github.com/joshcooper/example-guest.git'
+author 'Josh Cooper'
+license 'Apache License, Version 2.0'
+summary 'Rename the Guest account using powershell'
+description 'Rename the Guest account using powershell'
+project_page 'https://github.com/joshcooper/example-guest.git'
+dependency 'joshcooper/powershell'
+
