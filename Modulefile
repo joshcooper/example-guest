@@ -1,5 +1,5 @@
 name    'joshcooper-guest'
-version '0.1.0'
+version '0.1.1'
 source 'git://github.com/joshcooper/example-guest.git'
 author 'Josh Cooper'
 license 'Apache License, Version 2.0'
