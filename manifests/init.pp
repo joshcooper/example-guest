@@ -37,7 +37,8 @@
 #
 class guest {
   exec { 'rename-guest':
-    command   => template('guest/rename-guest.ps1.erb'),
+    command   => template('guest/rename-guest.ps1'),
+    onlyif    => template('guest/guest-exists.ps1'),
     provider  => powershell,
     logoutput => true,
   }
